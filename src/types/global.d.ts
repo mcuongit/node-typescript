@@ -1,0 +1,1 @@
+// your global type here
