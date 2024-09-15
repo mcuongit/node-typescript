@@ -11,7 +11,7 @@
     "dev": "nodemon",
     "build": "rimraf ./dist && tsc && tsc-alias",
     "start": "node dist/index.js",
-    "bundle": "tsc -b && rimraf ./bundle && node bundle.mjs",
+    "bundle": "tsc -b && rimraf ./bundle && node esbuild.mjs",
     "bundle:start": "node bundle/index.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
